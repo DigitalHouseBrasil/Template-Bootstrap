@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Altera o tamanho da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 1px solid #f1f1f1;
+  background: #343a40;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+header ul {
+  width: 50vw;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  color: #fff;
+}
+
+section.main-content {
+  background-image: url('../img/bg-header.jpg');
+  background-size: cover;
+  height: 91.7vh;
+}
+
+section.main-content h1 {
+  font-size: 5em;
+  color: #fff;
+}
+
+section.main-content p {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+section.main-content a {
+  background-color: #343a40;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 20px 50px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+section.informations, section.offer {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.informations a {
+  background-color: #343a40;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+section.offer {
+  height: 50vh;
+  background-color: #8c654c;
+}
+
+section.offer .icons {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.offer .icons i {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 60px;
+}
