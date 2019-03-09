@@ -231,3 +231,56 @@ section.plus a:hover i {
   transition: ease-in-out 1.5s;
   transform: rotate(360deg);
 }
+
+section.products {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.products .handler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.products .handler .title {
+  text-align: center;
+}
+
+section.products .handler .product {
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .4s linear, filter .4s linear;
+}
+
+section.products .handler .product:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  filter: grayscale(50%);
+}
+
+.bread {
+  background-image: url('../img/bread.jpg');
+  background-size: cover;
+}
+
+.bacon {
+  background-image: url('../img/bacon.jpg');
+  background-size: cover;
+}
+
+.coffee {
+  background-image: url('../img/coffee.jpg');
+  background-size: cover;
+}
+
+.cheese {
+  background-image: url('../img/cheese.jpg');
+  background-size: cover;
+}
