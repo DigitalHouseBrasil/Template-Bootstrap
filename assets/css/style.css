@@ -254,15 +254,26 @@ section.products .handler .product {
   width: 60vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   transition: transform .4s linear, filter .4s linear;
+  color: #fff;
 }
 
 section.products .handler .product:hover {
   cursor: pointer;
   transform: scale(0.9);
-  filter: grayscale(50%);
+  filter: grayscale(60%);
+}
+
+section.products .handler .product h2 {
+  font-size: 1.6em;
+  margin-left: 30px;
+}
+
+section.products .handler .product p {
+  font-size: 1.2em;
+  margin: 0 0 50px 30px;
 }
 
 .bread {
@@ -278,6 +289,7 @@ section.products .handler .product:hover {
 .coffee {
   background-image: url('../img/coffee.jpg');
   background-size: cover;
+  filter: contrast(1.4);
 }
 
 .cheese {
