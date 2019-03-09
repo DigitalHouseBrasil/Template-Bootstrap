@@ -210,7 +210,6 @@ section.plus div h1, section.plus div p {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   font-size: 3em;
-  font-family: monospace;
   text-align: center;
 }
 
@@ -223,7 +222,7 @@ section.plus a {
   color: #fff;
   font-size: 1em;
   border-radius: 50%;
-  padding: 20px;
+  padding: 15px 20px;
   margin-bottom: 3vh;
 }
 
