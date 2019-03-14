@@ -55,7 +55,7 @@ header nav ul li a {
   color: #fff;
   padding: 10px;
   border-radius: 10px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 header nav img {
@@ -110,7 +110,7 @@ section.main-content {
 }
 
 section.main-content h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #fff;
 }
 
@@ -228,7 +228,7 @@ section.plus a {
 
 section.plus a:hover i {
   color: limegreen;
-  transition: ease-in-out 1.5s;
+  transition: all 1s;
   transform: rotate(360deg);
 }
 
@@ -306,6 +306,24 @@ section.products .handler .product p {
 .gmap_canvas iframe {
   width: 100%;
   height: 100%;
+}
+
+.custom-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-collapse ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: transparent;
 }
 
 footer {
