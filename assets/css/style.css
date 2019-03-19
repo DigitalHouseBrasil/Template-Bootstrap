@@ -97,6 +97,7 @@ a.goTop {
   font-size: 1.3em;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
+  z-index: 3;
 }
 
 a.goTop:hover {
@@ -349,4 +350,18 @@ footer .icons i {
   border-radius: 50%;
   padding: 20px;
   font-size: 2em;
+}
+
+@media screen (max-width: 540px) {
+  section.main-content h1 {
+    font-size: 3em;
+  }
+
+  section.informations h1 {
+    font-size: 1.2em;
+  }
+
+  section.informations p {
+    font-size: 0em;
+  }
 }
