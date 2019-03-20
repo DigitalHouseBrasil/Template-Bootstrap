@@ -352,7 +352,8 @@ footer .icons i {
   font-size: 2em;
 }
 
-@media screen (max-width: 540px) {
+
+@media screen and (max-width: 540px) {
   section.main-content h1 {
     font-size: 3em;
   }
@@ -363,5 +364,26 @@ footer .icons i {
 
   section.informations p {
     font-size: 0em;
+  }
+
+  section.offer {
+    height: 100vh;
+  }
+
+  section.offer .icons .item {
+    text-align: center;
+  }
+
+  section.plus {
+    height: 100vh;
+  }
+
+  section.products {
+    height: 100vh;
+    margin-top: 65vh;
+  }
+
+  section.map {
+    margin-top: 65vh;
   }
 }
